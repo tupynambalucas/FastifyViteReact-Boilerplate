@@ -7,5 +7,7 @@ export function getMeta () {
 }
 
 export default function User () {
-  return <p>User Route</p>
+  return (
+    <p>User Route</p>
+  )
 }

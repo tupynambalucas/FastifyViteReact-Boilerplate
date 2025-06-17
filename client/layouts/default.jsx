@@ -1,7 +1,6 @@
 import { Suspense } from 'react'
 
-export default function Land ({ children }) {
-  console.log(children)
+export default function Layout ({ children }) {
   return (
     <Suspense>
       {children}

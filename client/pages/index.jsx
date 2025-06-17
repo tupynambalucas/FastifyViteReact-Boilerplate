@@ -23,7 +23,7 @@ export default function Land () {
   const { data } = useRouteContext();
   return (
   <>
-    <p style={text}>Hello {data.hello}</p>
+    <p style={textStyle}>Hello {data.hello}</p>
   </>
   )
 }
